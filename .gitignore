@@ -1,0 +1,19 @@
+# Raw + processed data (never commit patient data)
+data/
+*.csv
+!results/*.csv
+*.csv.gz
+
+# Model outputs
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
