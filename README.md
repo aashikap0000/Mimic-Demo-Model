@@ -31,7 +31,10 @@ python src/train.py            # 3. grouped 5-fold CV, saves plots + models
 | Logistic regression | 0.54 |
 | Random forest | 0.61 |
 
-With only 117 ICU stays, these numbers are noisy. The point is the pipeline, not the score.
+With only 117 ICU stays, these numbers are noisy. 
+Next steps: 
+- Add urine samples, Glasgow Coma Scale, or if patient was on ventilator 
+- Try switching target to length of hospital stay (more samples) 
 See `results/` for ROC curves and feature importance.
 
 ## Project structure
